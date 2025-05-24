@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins','sans-self';
+}
+
+body,html{
+    background: url(/images/school.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    color: red;
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+a.active{
+    color: red;
+}
+
+header{
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 40px;
+    color: white;
+}
+
+p{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+a.Arabic{
+    color: green;
+    text-decoration:underline;
+}
+
+a.English{
+    color: green;
+    text-decoration:underline;
+}
+
+a.French{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Skills{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Ict{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Religion{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Studies{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Sciences{
+    color: green;
+    text-decoration:underline;
+}
+
+a.Math{
+    color: green;
+    text-decoration:underline;
+}
